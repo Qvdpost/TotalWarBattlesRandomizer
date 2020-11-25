@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Total War: Warhammer 2 battles randomizer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="{{ url_for('static', filename='css/totalwarsheet.css') }}" rel="stylesheet" type="text/css">
+</head>
+
+<body width="800">
+
+<div class="largebody">
+    <h1>Total War: Warhammer 2 battles random suggestions</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class=flashes>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <form action="{{ url_for('randomize') }}" method="POST">
+        <table>
+            <tr>
+                <th colspan="2" style='text-align:center'>Preferences player 1</th>
+                <th colspan="2" style='text-align:center'>Preferences player 2</th>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        {% for dlc in dlcs %}
+                            <label>
+                                <input type="checkbox" name="dlcs1" value="{{ dlc }}" {% if dlc in session.player_prefs[0].dlcs %} checked="checked" {% endif %}/>
+                            </label>{{ dlc }}<br>
+                        {% endfor %}
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        {% for faction in factions %}
+                            <label>
+                                <input type="checkbox" name="faction1" value="{{ faction }}"
+                                        {% if faction in session.player_prefs[0].factions %} checked="checked" {% endif %}/>
+                            </label>{{ faction }}<br>
+                        {% endfor %}
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        {% for faction in factions %}
+                            <label>
+                                <input type="checkbox" name="faction2" value="{{ faction }}" {% if faction in session.player_prefs[1].factions %} checked="checked" {% endif %}/>
+                            </label>{{ faction }}<br>
+                        {% endfor %}
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        {% for dlc in dlcs %}
+                            <label>
+                                <input type="checkbox" name="dlcs2" value="{{ dlc }}" {% if dlc in session.player_prefs[1].dlcs %} checked="checked" {% endif %}/>
+                            </label>{{ dlc }}<br>
+                        {% endfor %}
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <input type="submit" value="Randomize!"/>
+
+    </form>
+</div>
+
+</body>
+</html>
