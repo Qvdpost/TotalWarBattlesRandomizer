@@ -42,7 +42,7 @@
                                         {% elif dlc in session.player_prefs[0].dlcs %}
                                         checked="checked"
                                         {% endif %}/>
-                            </label>{{ dlc }}<br>
+                            {{ dlc }}</label><br>
                         {% endfor %}
                     </fieldset>
                 </td>
@@ -59,7 +59,7 @@
                                         checked="checked"
                                         {% elif faction in session.player_prefs[0].factions %}
                                        checked="checked" {% endif %}/>
-                            </label>{{ faction }}<br>
+                            {{ faction }}</label><br>
                         {% endfor %}
                     </fieldset>
                 </td>
@@ -76,7 +76,7 @@
                                         checked="checked"
                                         {% elif faction in session.player_prefs[1].factions %}
                                        checked="checked" {% endif %}/>
-                            </label>{{ faction }}<br>
+                            {{ faction }}</label><br>
                         {% endfor %}
                     </fieldset>
                 </td>
@@ -94,7 +94,7 @@
                                         {% elif dlc in session.player_prefs[1].dlcs %}
                                         checked="checked"
                                         {% endif %}/>
-                            </label>{{ dlc }}<br>
+                            {{ dlc }}</label><br>
                         {% endfor %}
                     </fieldset>
                 </td>
