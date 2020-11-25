@@ -45,6 +45,8 @@ def randomize():
         }
     ]
 
+    session["SameSite"] = True
+
     for i in range(0, 2):
         faction = get_faction(session['player_prefs'][i], warhammer_faction_data)
         if not faction:

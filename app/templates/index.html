@@ -5,6 +5,7 @@
     <title>Total War: Warhammer 2 battles randomizer</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="{{ url_for('static', filename='css/totalwarsheet.css') }}" rel="stylesheet" type="text/css">
+    <script src="{{ url_for('static', filename='javascript/index.js') }}"></script>
 </head>
 
 <body width="800">
@@ -13,11 +14,11 @@
     <h1>Total War: Warhammer 2 battles random suggestions</h1>
     {% with messages = get_flashed_messages() %}
         {% if messages %}
-            <ul class=flashes>
+            <div class=flashes>
                 {% for message in messages %}
-                    <li>{{ message }}</li>
+                    <h3 class="flashes">{{ message }}</h3>
                 {% endfor %}
-            </ul>
+            </div>
         {% endif %}
     {% endwith %}
     <form action="{{ url_for('randomize') }}" method="POST">
@@ -28,38 +29,59 @@
             </tr>
             <tr>
                 <td>
+                    <div class="buttons-in-cell">
+                        <button id="dlcs1_all" class="table-btn">All</button>
+                        <button id="dlcs1_none" class="table-btn">None</button>
+                    </div>
                     <fieldset>
                         {% for dlc in dlcs %}
                             <label>
-                                <input type="checkbox" name="dlcs1" value="{{ dlc }}" {% if dlc in session.player_prefs[0].dlcs %} checked="checked" {% endif %}/>
+                                <input type="checkbox" id="dlcs1" name="dlcs1" value="{{ dlc }}"
+                                        {% if dlc in session.player_prefs[0].dlcs %} checked="checked" {% endif %}/>
                             </label>{{ dlc }}<br>
                         {% endfor %}
                     </fieldset>
                 </td>
                 <td>
+                    <div class="buttons-in-cell">
+                        <button id="faction1_all" class="table-btn">All</button>
+                        <button id="faction1_none" class="table-btn">None</button>
+                    </div>
                     <fieldset>
                         {% for faction in factions %}
                             <label>
-                                <input type="checkbox" name="faction1" value="{{ faction }}"
-                                        {% if faction in session.player_prefs[0].factions %} checked="checked" {% endif %}/>
+                                <input type="checkbox" id="faction1" name="faction1" value="{{ faction }}"
+                                        {% if faction in session.player_prefs[0].factions %}
+                                       checked="checked" {% endif %}/>
                             </label>{{ faction }}<br>
                         {% endfor %}
                     </fieldset>
                 </td>
                 <td>
+                    <div class="buttons-in-cell">
+                        <button id="faction2_all" class="table-btn">All</button>
+                        <button id="faction2_none" class="table-btn">None</button>
+                    </div>
                     <fieldset>
                         {% for faction in factions %}
                             <label>
-                                <input type="checkbox" name="faction2" value="{{ faction }}" {% if faction in session.player_prefs[1].factions %} checked="checked" {% endif %}/>
+                                <input type="checkbox" id="faction2" name="faction2" value="{{ faction }}"
+                                        {% if faction in session.player_prefs[1].factions %}
+                                       checked="checked" {% endif %}/>
                             </label>{{ faction }}<br>
                         {% endfor %}
                     </fieldset>
                 </td>
                 <td>
+                    <div class="buttons-in-cell">
+                        <button id="dlcs2_all" class="table-btn">All</button>
+                        <button id="dlcs2_none" class="table-btn">None</button>
+                    </div>
                     <fieldset>
                         {% for dlc in dlcs %}
                             <label>
-                                <input type="checkbox" name="dlcs2" value="{{ dlc }}" {% if dlc in session.player_prefs[1].dlcs %} checked="checked" {% endif %}/>
+                                <input type="checkbox" id="dlcs2" name="dlcs2" value="{{ dlc }}"
+                                        {% if dlc in session.player_prefs[1].dlcs %} checked="checked" {% endif %}/>
                             </label>{{ dlc }}<br>
                         {% endfor %}
                     </fieldset>

@@ -1,115 +1,139 @@
-body
-{margin-top: 10px;
-text-align: center;
-background-image:url("../images/background3.jpg");
-text-align: center;}
-
-.haut img
-{border: 1px solid #5C7CFF;
-margin-top: 10px;}
-
-.corps
-{margin: auto;
-border: 1px solid #5C7CFF;
-width: 48%;
-background-color: #ffffff;
-background-image: url("background4.jpg");
-margin-bottom: 10px;
-padding: 10px 30px;
-text-align: justify;
-font-family: Vijaya, Verdana, DejaVu Sans, Arial, serif;
-font-size: 16px;
-color: #5472C0 ;
+body {
+    margin-top: 10px;
+    text-align: center;
+    background-image: url("../images/background3.jpg");
+    text-align: center;
 }
 
-.largebody
-{margin: auto;
-border: 1px solid #5C7CFF;
-width: 70%;
-background-color: #ffffff;
-background-image: url("background4.jpg");
-margin-bottom: 10px;
-padding: 10px 30px;
-text-align: center;
-font-family: Vijaya, Verdana, DejaVu Sans, Arial, serif;
-font-size: 16px;
-color: #5472C0 ;
-}
-
-h1
-{font-family: "French Script MT", Verdana, DejaVu Sans, Arial, serif;
-font-size: 40px;
-text-align: center;
-color: #0026ab;}
-
-.sign
-{font-family: URW Chancery L, "Lucida Handwriting", Verdana, DejaVu Sans, Arial, serif;
-font-size: 18px;
-}
-
-h3
-{
+.flashes {
 	text-align: center;
 }
 
-h4 a
-{
-color: rgb(223, 181, 107);
-text-decoration: none
+.haut img {
+    border: 1px solid #5C7CFF;
+    margin-top: 10px;
 }
 
-h4
-{
-color: rgb(223, 181, 107);
-text-decoration: none;
-text-align: center;
-margin: -2px;
+.corps {
+    margin: auto;
+    border: 1px solid #5C7CFF;
+    width: 48%;
+    background-color: #ffffff;
+    background-image: url("background4.jpg");
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    text-align: justify;
+    font-family: Vijaya, Verdana, DejaVu Sans, Arial, serif;
+    font-size: 16px;
+    color: #5472C0;
 }
 
-p
-{text-align: justify;
-font-family: Verdana, DejaVu Sans, Arial, serif;
-font-size: 13px;
-color: #2200aa;}
-
-dt a
-{color: rgb(223, 181, 107);
-text-align: right;
-text-decoration: none}
-dt a:visited
-{color: #D6D6D6;}
-dt a:hover
-{color: #A3A3A3;}
-a img
-{border: 0;}
-
-
-table
-{margin: auto;
-text-align: center;
-border-collapse:collapse;
-border: 1px solid #6184ff;
-background-color: white;}
-
-tr, th
-{padding: 5px;
-font-family: Verdana, DejaVu Sans, Arial, serif;
-color: #4d74fd;
-text-align: left;
-border: 1px solid #6184ff;
-width: 300px;
-font-size: 14px;
+.largebody {
+    margin: auto;
+    border: 1px solid #5C7CFF;
+    width: 70%;
+    background-color: #ffffff;
+    background-image: url("background4.jpg");
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: Vijaya, Verdana, DejaVu Sans, Arial, serif;
+    font-size: 16px;
+    color: #5472C0;
 }
 
-td
-{padding: 5px;
-font-family: Verdana, DejaVu Sans, Arial, serif;
-color: #4d74fd;
-text-align: left;
-border: 1px solid #6184ff;
-width: 300px;
-font-size: 14px;
+h1 {
+    font-family: "French Script MT", Verdana, DejaVu Sans, Arial, serif;
+    font-size: 40px;
+    text-align: center;
+    color: #0026ab;
 }
 
-form
-{text-align: center;}
+.sign {
+    font-family: URW Chancery L, "Lucida Handwriting", Verdana, DejaVu Sans, Arial, serif;
+    font-size: 18px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 a {
+    color: rgb(223, 181, 107);
+    text-decoration: none
+}
+
+h4 {
+    color: rgb(223, 181, 107);
+    text-decoration: none;
+    text-align: center;
+    margin: -2px;
+}
+
+p {
+    text-align: justify;
+    font-family: Verdana, DejaVu Sans, Arial, serif;
+    font-size: 13px;
+    color: #2200aa;
+}
+
+dt a {
+    color: rgb(223, 181, 107);
+    text-align: right;
+    text-decoration: none
+}
+
+dt a:visited {
+    color: #D6D6D6;
+}
+
+dt a:hover {
+    color: #A3A3A3;
+}
+
+a img {
+    border: 0;
+}
+
+
+table {
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #6184ff;
+    background-color: white;
+}
+
+tr, th {
+    padding: 5px;
+    font-family: Verdana, DejaVu Sans, Arial, serif;
+    color: #4d74fd;
+    text-align: left;
+    border: 1px solid #6184ff;
+    width: 300px;
+}
+
+td {
+    padding: 5px;
+    font-family: Verdana, DejaVu Sans, Arial, serif;
+    color: #4d74fd;
+    text-align: left;
+    border: 1px solid #6184ff;
+    width: 300px;
+    vertical-align: top;
+    font-size: 0.8vw;
+}
+
+.table-btn {
+    display: inline-block;
+}
+
+.buttons-in-cell {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: center;
+}
