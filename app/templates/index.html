@@ -37,7 +37,11 @@
                         {% for dlc in dlcs %}
                             <label>
                                 <input type="checkbox" id="dlcs1" name="dlcs1" value="{{ dlc }}"
-                                        {% if dlc in session.player_prefs[0].dlcs %} checked="checked" {% endif %}/>
+                                        {% if not session.player_prefs %}
+                                        checked="checked"
+                                        {% elif dlc in session.player_prefs[0].dlcs %}
+                                        checked="checked"
+                                        {% endif %}/>
                             </label>{{ dlc }}<br>
                         {% endfor %}
                     </fieldset>
@@ -51,7 +55,9 @@
                         {% for faction in factions %}
                             <label>
                                 <input type="checkbox" id="faction1" name="faction1" value="{{ faction }}"
-                                        {% if faction in session.player_prefs[0].factions %}
+                                        {% if not session.player_prefs %}
+                                        checked="checked"
+                                        {% elif faction in session.player_prefs[0].factions %}
                                        checked="checked" {% endif %}/>
                             </label>{{ faction }}<br>
                         {% endfor %}
@@ -66,7 +72,9 @@
                         {% for faction in factions %}
                             <label>
                                 <input type="checkbox" id="faction2" name="faction2" value="{{ faction }}"
-                                        {% if faction in session.player_prefs[1].factions %}
+                                        {% if not session.player_prefs %}
+                                        checked="checked"
+                                        {% elif faction in session.player_prefs[1].factions %}
                                        checked="checked" {% endif %}/>
                             </label>{{ faction }}<br>
                         {% endfor %}
@@ -81,7 +89,11 @@
                         {% for dlc in dlcs %}
                             <label>
                                 <input type="checkbox" id="dlcs2" name="dlcs2" value="{{ dlc }}"
-                                        {% if dlc in session.player_prefs[1].dlcs %} checked="checked" {% endif %}/>
+                                        {% if not session.player_prefs %}
+                                        checked="checked"
+                                        {% elif dlc in session.player_prefs[1].dlcs %}
+                                        checked="checked"
+                                        {% endif %}/>
                             </label>{{ dlc }}<br>
                         {% endfor %}
                     </fieldset>
