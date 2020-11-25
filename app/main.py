@@ -1,7 +1,8 @@
 from flask import Flask, request, session
 import flask
 import json
-import random
+
+from .util import get_lord, get_faction
 
 app = Flask(__name__)
 app.secret_key = b'Jdk34X8nHsfXzRCRySdfFjtNgQ8gMfM+MnHKxuMk+Z8='
@@ -35,11 +36,6 @@ def index():
 def randomize():
     with open("static/data/factions.json") as f:
         warhammer_faction_data = json.loads(f.read())
-        warhammer_factions = set(warhammer_faction_data.keys())
-
-    with open("static/data/dlcs.json") as f:
-        warhammer_dlc_data = json.loads(f.read())
-        warhammer_dlcs = set(warhammer_dlc_data['Warhammer I']['dlcs'] + warhammer_dlc_data['Warhammer II']['dlcs'])
 
     session['player_prefs'] = [{
         'factions': request.form.getlist('faction1'),
@@ -62,39 +58,6 @@ def randomize():
         flask.flash(f"Player {i + 1}: {faction} with {player_suggestion_lord}.")
 
     return flask.redirect(flask.url_for('index'))
-
-
-def get_faction(prefs, data):
-    faction = None
-    factions = list(set(data.keys()) and set(prefs['factions']))
-
-    if not factions:
-        return None
-
-    count = 0
-    while faction is None and count < 50:
-        count += 1
-        faction = random.choice(factions)
-        if data.get(faction).get('dlc') and data.get(faction).get('dlc_name') not in prefs['dlcs']:
-            faction = None
-
-    return faction
-
-
-def get_lord(faction, prefs, data):
-    lord = None
-    count = 0
-
-    while lord is None and count < 50:
-        lord = random.choice(list(data.get(faction).get('lords').keys()))
-        lord_info = data.get(faction).get('lords').get(lord)
-        if lord_info.get('dlc'):
-            dlc_name = lord_info.get('dlc_name') if lord_info.get('dlc_name') != "" else data.get(faction).get(
-                'dlc_name')
-            if dlc_name not in prefs['dlcs']:
-                lord = None
-
-    return lord
 
 
 if __name__ == "__main__":
