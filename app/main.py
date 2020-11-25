@@ -6,6 +6,12 @@ import random
 app = Flask(__name__)
 app.secret_key = b'Jdk34X8nHsfXzRCRySdfFjtNgQ8gMfM+MnHKxuMk+Z8='
 
+app.config.update(
+    SESSION_COOKIE_SECURE=True,
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SAMESITE='Strict',
+)
+
 
 @app.route("/")
 def index():
@@ -21,11 +27,6 @@ def index():
 
     context.update({'factions': warhammer_factions})
     context.update({'dlcs': warhammer_dlcs})
-
-    session["SameSite"] = True
-
-    if not session.get('player_prefs'):
-        session['player_prefs'] = {}
 
     return flask.render_template('index.html', **context)
 
