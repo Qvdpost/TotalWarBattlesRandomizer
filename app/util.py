@@ -1,3 +1,5 @@
+import random
+
 def get_faction(prefs, data):
     faction = None
     factions = list(set(data.keys()) and set(prefs['factions']))
