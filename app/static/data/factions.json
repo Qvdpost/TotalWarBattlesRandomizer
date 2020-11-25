@@ -175,7 +175,7 @@
         "dlc": true,
         "dlc_name": "The Hunter and the Beast"
       },
-      "Volkmar The Grim": {
+      "Volkmar the Grim": {
         "dlc": true,
         "dlc_name": "The Grim and the Grave"
       }
@@ -204,11 +204,11 @@
         "dlc": true,
         "dlc_name": "The King and the Warlord"
       },
-      "Grom The Paunch": {
+      "Grom the Paunch": {
         "dlc": true,
         "dlc_name": "The Warden and the Paunch"
       },
-      "Azhag The Slaughterer": {
+      "Azhag the Slaughterer": {
         "dlc": false,
         "dlc_name": ""
       },
@@ -277,7 +277,7 @@
         "dlc": false,
         "dlc_name": ""
       },
-      "Alarielle The Radiant": {
+      "Alarielle the Radiant": {
         "dlc": true,
         "dlc_name": "The Queen and the Crone"
       },
@@ -285,7 +285,7 @@
         "dlc": false,
         "dlc_name": ""
       },
-      "Eltharion The Grim": {
+      "Eltharion the Grim": {
         "dlc": true,
         "dlc_name": "The Warden and the Paunch"
       }
@@ -302,7 +302,7 @@
         "dlc": false,
         "dlc_name": ""
       },
-      "Sauris Oldblood": {
+      "Saurus Oldblood": {
         "dlc": false,
         "dlc_name": ""
       },
@@ -360,7 +360,7 @@
         "dlc": true,
         "dlc_name": ""
       },
-      "Wulfrik The Wanderer": {
+      "Wulfrik the Wanderer": {
         "dlc": true,
         "dlc_name": ""
       },
@@ -431,11 +431,11 @@
         "dlc": true,
         "dlc_name": ""
       },
-      "Arkhan The Black": {
+      "Arkhan the Black": {
         "dlc": true,
         "dlc_name": ""
       },
-      "Settra The Imperishable": {
+      "Settra the Imperishable": {
         "dlc": true,
         "dlc_name": ""
       }
