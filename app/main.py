@@ -22,6 +22,11 @@ def index():
     context.update({'factions': warhammer_factions})
     context.update({'dlcs': warhammer_dlcs})
 
+    session["SameSite"] = True
+
+    if not session.get('player_prefs'):
+        session['player_prefs'] = {}
+
     return flask.render_template('index.html', **context)
 
 
@@ -44,8 +49,6 @@ def randomize():
             'dlcs': request.form.getlist('dlcs2')
         }
     ]
-
-    session["SameSite"] = True
 
     for i in range(0, 2):
         faction = get_faction(session['player_prefs'][i], warhammer_faction_data)
