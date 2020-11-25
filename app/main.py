@@ -37,10 +37,11 @@ def randomize():
     with open("static/data/factions.json") as f:
         warhammer_faction_data = json.loads(f.read())
 
-    session['player_prefs'] = [{
-        'factions': request.form.getlist('faction1'),
-        'dlcs': request.form.getlist('dlcs1')
-    },
+    session['player_prefs'] = [
+        {
+            'factions': request.form.getlist('faction1'),
+            'dlcs': request.form.getlist('dlcs1')
+        },
         {
             'factions': request.form.getlist('faction2'),
             'dlcs': request.form.getlist('dlcs2')
