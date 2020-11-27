@@ -1,8 +1,9 @@
 from flask import Flask, request, session
 import flask
 import json
+from waitress import serve
 
-from .util import get_lord, get_faction
+from util import get_lord, get_faction
 
 app = Flask(__name__)
 app.secret_key = b'Jdk34X8nHsfXzRCRySdfFjtNgQ8gMfM+MnHKxuMk+Z8='
@@ -62,5 +63,4 @@ def randomize():
 
 
 if __name__ == "__main__":
-    # Only for debugging while developing
-    app.run(host="localhost", debug=True, port=8080)
+    serve(app, listen='*:8080')
