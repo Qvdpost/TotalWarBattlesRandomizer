@@ -1,7 +1,6 @@
 from flask import Flask, request, session
 import flask
 import json
-from waitress import serve
 
 from util import get_lord, get_faction
 
@@ -60,7 +59,3 @@ def randomize():
         flask.flash(f"Player {i + 1}: {faction} led by {player_suggestion_lord}.")
 
     return flask.redirect(flask.url_for('index'))
-
-
-if __name__ == "__main__":
-    serve(app, listen='*:8080')
