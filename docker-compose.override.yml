@@ -5,4 +5,4 @@ services:
       - ./app:/app
     ports:
       - "8484:8080"
-    command: python main.py
+    command: uwsgi --socket 0.0.0.0:8080 --processes 4 --threads 2 --protocol=http -w wsgi:app
