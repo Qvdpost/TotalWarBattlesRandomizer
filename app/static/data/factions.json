@@ -1,0 +1,611 @@
+{
+  "Beastmen": {
+    "dlc": true,
+    "dlc_name": "Call of the Beastmen",
+    "lords": {
+      "Beastlord": {
+        "dlc": true,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Khazrak the One-Eye": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Malagor the Dark Omen": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Morghur the Shadowgave": {
+        "dlc": false,
+        "dlc_name": ""
+      }
+    }
+  },
+  "Bretonnia": {
+    "dlc": false,
+    "lords": {
+      "King Louen Leoncoeur": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Alberic de Bordeleaux": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "The Fay Enchantress": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Repanse de Lyonesse": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Lord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Prophetess (Beasts)": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Prophetess (Life)": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Prophetess (Heavens)": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      }
+    }
+  },
+  "Dark Elves": {
+    "dlc": false,
+    "lords": {
+      "Malekith": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Crone Hellebron": {
+        "dlc": true,
+        "dlc_name": "The Queen and the Crone"
+      },
+      "Morathi": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Malus Darkblade": {
+        "dlc": true,
+        "dlc_name": "The Shadow and the Blade"
+      },
+      "Lokhir Fellheart": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "High Beastmaster": {
+        "dlc": true,
+        "dlc_name": "The Shadow and the Blade",
+        "article": "a"
+      },
+      "Dreadlord (Sword & Crossbow)": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Dreadlord (Sword & Shield)": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Supreme Sorceress": {
+        "dlc": true,
+        "dlc_name": "The Queen and the Crone",
+        "article": "a",
+        "lore": [
+          "Shadow",
+          "Beasts",
+          "Death",
+          "Fire",
+          "Dark"
+        ]
+      }
+    }
+  },
+  "Dwarfs": {
+    "dlc": false,
+    "lords": {
+      "Lord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Belegar Ironhammer": {
+        "dlc": true,
+        "dlc_name": "The King and the Warlord"
+      },
+      "Grombrindal - The White Dwarf": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Runelord": {
+        "dlc": true,
+        "dlc_name": "The King and the Warlord",
+        "article": "a"
+      },
+      "Ungrim Ironfist": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Thogrim Grudgebearer": {
+        "dlc": false,
+        "dlc_name": ""
+      }
+    }
+  },
+  "The Empire": {
+    "dlc": false,
+    "lords": {
+      "General of the Empire": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Huntsman General": {
+        "dlc": true,
+        "dlc_name": "The Hunter and the Beast",
+        "article": "a"
+      },
+      "Boris Todbringer": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Karl Franz": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Arch Lector": {
+        "dlc": true,
+        "dlc_name": "The Grim and the Grave",
+        "article": "an"
+      },
+      "Balthasar Gelt": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Markus Wulfhart": {
+        "dlc": true,
+        "dlc_name": "The Hunter and the Beast"
+      },
+      "Volkmar the Grim": {
+        "dlc": true,
+        "dlc_name": "The Grim and the Grave"
+      }
+    }
+  },
+  "Greenskins": {
+    "dlc": false,
+    "lords": {
+      "Night Goblin Warboss": {
+        "dlc": true,
+        "dlc_name": "The King and the Warlord",
+        "article": "a"
+      },
+      "Orc Warboss": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "an"
+      },
+      "Goblin Great Shaman": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Grimgor Ironhide": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Skarsnik": {
+        "dlc": true,
+        "dlc_name": "The King and the Warlord"
+      },
+      "Grom the Paunch": {
+        "dlc": true,
+        "dlc_name": "The Warden and the Paunch"
+      },
+      "Azhag the Slaughterer": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Wurrzag": {
+        "dlc": false,
+        "dlc_name": ""
+      }
+    }
+  },
+  "High Elves": {
+    "dlc": false,
+    "lords": {
+      "Princess": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Prince": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Alith Anar": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Archmage": {
+        "dlc": true,
+        "dlc_name": "The Warden and the Paunch",
+        "article": "an",
+        "lore": [
+          "Shadow",
+          "Beasts",
+          "Death",
+          "Fire",
+          "Metal",
+          "High",
+          "Life",
+          "Light",
+          "Heavens"
+        ]
+      },
+      "Imrik": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Tyrion": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Alarielle the Radiant": {
+        "dlc": true,
+        "dlc_name": "The Queen and the Crone"
+      },
+      "Teclis": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Eltharion the Grim": {
+        "dlc": true,
+        "dlc_name": "The Warden and the Paunch"
+      }
+    }
+  },
+  "Lizardmen": {
+    "dlc": false,
+    "lords": {
+      "Red Crested Skink Chief": {
+        "dlc": true,
+        "dlc_name": "The Prophet and the Warlock",
+        "article": "a"
+      },
+      "Tiktaq'to": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Saurus Oldblood": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Kroxigor Ancient": {
+        "dlc": true,
+        "dlc_name": "The Hunter and the Beast",
+        "article": "a"
+      },
+      "Gor-rok": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Kroq-Gar": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Nakai the Wanderer": {
+        "dlc": true,
+        "dlc_name": "The Hunter and the Beast"
+      },
+      "Slann Mage-Priest": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Fire",
+          "Life",
+          "Light",
+          "Heavens"
+        ]
+      },
+      "Tehenhauin": {
+        "dlc": true,
+        "dlc_name": "The Prophet and the Warlock"
+      },
+      "Lord Mazdamundi": {
+        "dlc": false,
+        "dlc_name": ""
+      }
+    }
+  },
+  "Norsca": {
+    "dlc": true,
+    "dlc_name": "Norsca (DLC)",
+    "lords": {
+      "Marauder Chieftain": {
+        "dlc": true,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Wulfrik the Wanderer": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Throgg": {
+        "dlc": true,
+        "dlc_name": ""
+      }
+    }
+  },
+  "Skaven": {
+    "dlc": false,
+    "lords": {
+      "Warlord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Master Assassin": {
+        "dlc": true,
+        "dlc_name": "The Shadow and the Blade",
+        "article": "a"
+      },
+      "Tretch Craventail": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Deathmaster Snikch": {
+        "dlc": true,
+        "dlc_name": "The Shadow and the Blade"
+      },
+      "Queek Headtaker": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Grey Seer": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Plague",
+          "Ruin"
+        ]
+      },
+      "Warlock Master": {
+        "dlc": true,
+        "dlc_name": "The Prophet and the Warlock",
+        "article": "a"
+      },
+      "Lord Skrolk": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Ikit Claw": {
+        "dlc": true,
+        "dlc_name": "The Prophet and the Warlock"
+      }
+    }
+  },
+  "Tomb Kings": {
+    "dlc": true,
+    "dlc_name": "Rise of the Tomb Kings",
+    "lords": {
+      "Tomb King": {
+        "dlc": true,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "High Queen Khalida": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Grand Hierophant Khatep": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Arkhan the Black": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Settra the Imperishable": {
+        "dlc": true,
+        "dlc_name": ""
+      }
+    }
+  },
+  "Vampire Coast": {
+    "dlc": true,
+    "dlc_name": "Curse of the Vampire Coast",
+    "lords": {
+      "Aranessa Saltspite": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Luthor Harkon": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Cylostra Direfin": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Vampire Fleet Admiral (Polearm)": {
+        "dlc": true,
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Vampires",
+          "Death",
+          "Deep"
+        ]
+      },
+      "Vampire Fleet Admiral (Pistol)": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Vampires",
+          "Death",
+          "Deep"
+        ]
+      },
+      "Count Noctilus": {
+        "dlc": true,
+        "dlc_name": ""
+      }
+    }
+  },
+  "Vampire Counts": {
+    "dlc": false,
+    "lords": {
+      "Master Necromancer": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Helman Ghorst": {
+        "dlc": true,
+        "dlc_name": "The Grim and the Grave"
+      },
+      "Heinrich Kemmler": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Strigoi Ghoul King": {
+        "dlc": true,
+        "dlc_name": "The Grim and the Grave",
+        "article": "a"
+      },
+      "Vampire Lord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Necrarch Vampire Lord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Von Carstein Vampire Lord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Isabella von Carstein": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Lahmian Vampire Lord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Vlad von Carstein": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "The Red Duke": {
+        "dlc": false,
+        "dlc_name": ""
+      },
+      "Blood Dragon Vampire Lord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Strigoi Vampire Lord": {
+        "dlc": false,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Mannfred von Carstein": {
+        "dlc": false,
+        "dlc_name": ""
+      }
+    }
+  },
+  "Warriors of Chaos": {
+    "dlc": true,
+    "dlc_name": "Chaos Warriors Race Pack",
+    "lords": {
+      "Chaos Lord": {
+        "dlc": true,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Prince Sigvald the Magnificent": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Chaos Sorcerer Lord": {
+        "dlc": true,
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Metal",
+          "Death",
+          "Fire",
+          "Shadows"
+        ]
+      },
+      "Archaon the Everchosen": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Kholek Suneater": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Sarthorael, the Everwatcher": {
+        "dlc": false,
+        "dlc_name": ""
+      }
+    }
+  },
+  "Wood Elves": {
+    "dlc": true,
+    "dlc_name": "Realm of the Wood Elves",
+    "lords": {
+      "Glade Lord (1)": {
+        "dlc": true,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Glade Lord (2)": {
+        "dlc": true,
+        "dlc_name": "",
+        "article": "a"
+      },
+      "Orion": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Durthu": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Ancient Treeman": {
+        "dlc": true,
+        "dlc_name": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.largebody {
+    margin: auto;
+    border: 1px solid #5C7CFF;
+    background-color: #ffffff;
+    background-image: url("images/background3.jpg");
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: Vijaya, Verdana, DejaVu Sans, Arial, serif;
+    font-size: 16px;
+    color: #5472C0;
+    opacity: 0.9;
+}
+
+body {
+    margin-top: 10px;
+    text-align: center;
+    background-image: url("../images/background3.jpg");
+}
+
+h1 {
+    font-family: "French Script MT", Verdana, DejaVu Sans, Arial, serif;
+    font-size: 40px;
+    color: #0026ab;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid #6184ff;
+    background-color: white;
+}
+
+tr, th {
+    padding: 5px;
+    font-family: Verdana, DejaVu Sans, Arial, serif;
+    color: #4d74fd;
+    border: 1px solid #6184ff;
+}
+
+td {
+    font-family: Verdana, DejaVu Sans, Arial, serif;
+    color: #4d74fd;
+    text-align: left;
+    border: 1px solid #6184ff;
+    vertical-align: top;
+}
+
+.checkbox {
+    position: relative;
+    vertical-align: middle;
+    bottom: 1px;
+}
+
+.buttons-in-cell {
+    margin-bottom: 10px;
+}
+
+.table-btn {
+    margin-right: 5px;
+}

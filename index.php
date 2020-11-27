@@ -56,7 +56,7 @@ if (isset ($_POST['faction2']))
 			</tr>
 			<tr>
 				<td>
-					<?php 
+					<?php
 					for ($i = 0; $i < $factions_count; $i++)
 					{
 						echo '<input type="checkbox" name="faction1[]" value="'.$i.'" checked="checked" /> '.$factions[$i][0].'<br>';

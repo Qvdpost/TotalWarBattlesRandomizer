@@ -1,0 +1,24 @@
+{
+  "Warhammer I": {
+    "dlcs": [
+      "Chaos Warriors Race Pack",
+      "Call of the Beastmen",
+      "The Grim and the Grave",
+      "The King and the Warlord",
+      "Realm of the Wood Elves",
+      "Norsca (DLC)"
+    ]
+  },
+  "Warhammer II": {
+    "dlcs": [
+      "Rise of the Tomb Kings",
+      "The Queen and the Crone",
+      "Curse of the Vampire Coast",
+      "The Prophet and the Warlock",
+      "The Hunter and the Beast",
+      "The Shadow and the Blade",
+      "The Warden and the Paunch",
+      "The Twisted and the Twilight"
+    ]
+  }
+}
