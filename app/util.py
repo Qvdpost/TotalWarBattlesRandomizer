@@ -28,6 +28,9 @@ def get_lord(faction, prefs, data):
         if lord_info.get('article'):
             lord = f"{lord_info.get('article')} {lord}"
 
+        if lord_info.get('lore'):
+            lord = f"{lord} with the lore of {random.choice(lord_info.get('lore'))} Magic"
+
         if lord_info.get('dlc'):
             dlc_name = lord_info.get('dlc_name') if lord_info.get('dlc_name') != "" else data.get(faction).get(
                 'dlc_name')

@@ -101,30 +101,17 @@
         "dlc_name": "",
         "article": "a"
       },
-      "Supreme Sorceress (Shadow)": {
+      "Supreme Sorceress": {
         "dlc": true,
         "dlc_name": "The Queen and the Crone",
-        "article": "a"
-      },
-      "Supreme Sorceress (Beasts)": {
-        "dlc": true,
-        "dlc_name": "The Queen and the Crone",
-        "article": "a"
-      },
-      "Supreme Sorceress (Death)": {
-        "dlc": true,
-        "dlc_name": "The Queen and the Crone",
-        "article": "a"
-      },
-      "Supreme Sorceress (Fire)": {
-        "dlc": true,
-        "dlc_name": "The Queen and the Crone",
-        "article": "a"
-      },
-      "Supreme Sorceress (Dark)": {
-        "dlc": true,
-        "dlc_name": "The Queen and the Crone",
-        "article": "a"
+        "article": "a",
+        "lore": [
+          "Shadow",
+          "Beasts",
+          "Death",
+          "Fire",
+          "Dark"
+        ]
       }
     }
   },
@@ -256,50 +243,21 @@
         "dlc": false,
         "dlc_name": ""
       },
-      "Archmage (Shadows)": {
+      "Archmage": {
         "dlc": true,
         "dlc_name": "The Warden and the Paunch",
-        "article": "an"
-      },
-      "Archmage (Beasts)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch",
-        "article": "an"
-      },
-      "Archmage (Metal)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch",
-        "article": "an"
-      },
-      "Archmage (High)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch",
-        "article": "an"
-      },
-      "Archmage (Death)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch",
-        "article": "an"
-      },
-      "Archmage (Life)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch",
-        "article": "an"
-      },
-      "Archmage (Light)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch",
-        "article": "an"
-      },
-      "Archmage (Fire)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch",
-        "article": "an"
-      },
-      "Archmage (Heavens)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch",
-        "article": "an"
+        "article": "an",
+        "lore": [
+          "Shadow",
+          "Beasts",
+          "Death",
+          "Fire",
+          "Metal",
+          "High",
+          "Life",
+          "Light",
+          "Heavens"
+        ]
       },
       "Imrik": {
         "dlc": false,
@@ -357,30 +315,16 @@
         "dlc": true,
         "dlc_name": "The Hunter and the Beast"
       },
-      "Slann Mage-Priest (High)": {
+      "Slann Mage-Priest": {
         "dlc": false,
         "dlc_name": "",
-        "article": "a"
-      },
-      "Slann Mage-Priest (Life)": {
-        "dlc": false,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Slann Mage-Priest (Light)": {
-        "dlc": false,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Slann Mage-Priest (Fire)": {
-        "dlc": false,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Slann Mage-Priest (Heavens)": {
-        "dlc": false,
-        "dlc_name": "",
-        "article": "a"
+        "article": "a",
+        "lore": [
+          "Fire",
+          "Life",
+          "Light",
+          "Heavens"
+        ]
       },
       "Tehenhauin": {
         "dlc": true,
@@ -436,15 +380,14 @@
         "dlc": false,
         "dlc_name": ""
       },
-      "Grey Seer (Plague)": {
+      "Grey Seer": {
         "dlc": false,
         "dlc_name": "",
-        "article": "a"
-      },
-      "Grey Seer (Ruin)": {
-        "dlc": false,
-        "dlc_name": "",
-        "article": "a"
+        "article": "a",
+        "lore": [
+          "Plague",
+          "Ruin"
+        ]
       },
       "Warlock Master": {
         "dlc": true,
@@ -504,35 +447,25 @@
         "dlc": true,
         "dlc_name": ""
       },
-      "Vampire Fleet Admiral (Polearm - Vampires)": {
+      "Vampire Fleet Admiral (Polearm)": {
         "dlc": true,
         "dlc_name": "",
-        "article": "a"
+        "article": "a",
+        "lore": [
+          "Vampires",
+          "Death",
+          "Deep"
+        ]
       },
-      "Vampire Fleet Admiral (Polearm - Death)": {
-        "dlc": true,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Vampire Fleet Admiral (Polearm - Deep)": {
-        "dlc": true,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Vampire Fleet Admiral (Pistol - Vampires)": {
+      "Vampire Fleet Admiral (Pistol)": {
         "dlc": false,
         "dlc_name": "",
-        "article": "a"
-      },
-      "Vampire Fleet Admiral (Pistol - Death)": {
-        "dlc": true,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Vampire Fleet Admiral (Pistol - Deep)": {
-        "dlc": true,
-        "dlc_name": "",
-        "article": "a"
+        "article": "a",
+        "lore": [
+          "Vampires",
+          "Death",
+          "Deep"
+        ]
       },
       "Count Noctilus": {
         "dlc": true,
@@ -622,25 +555,16 @@
         "dlc": true,
         "dlc_name": ""
       },
-      "Chaos Sorcerer Lord (Death)": {
+      "Chaos Sorcerer Lord": {
         "dlc": true,
         "dlc_name": "",
-        "article": "a"
-      },
-      "Chaos Sorcerer Lord (Metal)": {
-        "dlc": true,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Chaos Sorcerer Lord (Fire)": {
-        "dlc": true,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Chaos Sorcerer Lord (Shadows)": {
-        "dlc": true,
-        "dlc_name": "",
-        "article": "a"
+        "article": "a",
+        "lore": [
+          "Metal",
+          "Death",
+          "Fire",
+          "Shadows"
+        ]
       },
       "Archaon the Everchosen": {
         "dlc": true,
