@@ -1,20 +1,23 @@
 import random
 
 def get_faction(prefs, data):
-    faction = None
     factions = list(set(data.keys()) and set(prefs['factions']))
 
     if not factions:
         return None
 
     count = 0
-    while faction is None and count < 50:
+    while count < 50:
         count += 1
         faction = random.choice(factions)
-        if data.get(faction).get('dlc') and data.get(faction).get('dlc_name') not in prefs['dlcs']:
-            faction = None
+            
+        if not data.get(faction).get('dlc'):
+            return faction
 
-    return faction
+        if data.get(faction).get('dlc_name') in prefs['dlcs']:
+            return faction
+
+    return None
 
 
 def get_lord(faction, prefs, data):
