@@ -5,7 +5,8 @@
     "lords": {
       "Beastlord": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Khazrak the One-Eye": {
         "dlc": true,
@@ -42,19 +43,23 @@
       },
       "Lord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Prophetess (Beasts)": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Prophetess (Life)": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Prophetess (Heavens)": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       }
     }
   },
@@ -83,35 +88,30 @@
       },
       "High Beastmaster": {
         "dlc": true,
-        "dlc_name": "The Shadow and the Blade"
+        "dlc_name": "The Shadow and the Blade",
+        "article": "a"
       },
       "Dreadlord (Sword & Crossbow)": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Dreadlord (Sword & Shield)": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
-      "Supreme Sorceress (Shadow)": {
+      "Supreme Sorceress": {
         "dlc": true,
-        "dlc_name": "The Queen and the Crone"
-      },
-      "Supreme Sorceress (Beasts)": {
-        "dlc": true,
-        "dlc_name": "The Queen and the Crone"
-      },
-      "Supreme Sorceress (Death)": {
-        "dlc": true,
-        "dlc_name": "The Queen and the Crone"
-      },
-      "Supreme Sorceress (Fire)": {
-        "dlc": true,
-        "dlc_name": "The Queen and the Crone"
-      },
-      "Supreme Sorceress (Dark)": {
-        "dlc": true,
-        "dlc_name": "The Queen and the Crone"
+        "dlc_name": "The Queen and the Crone",
+        "article": "a",
+        "lore": [
+          "Shadow",
+          "Beasts",
+          "Death",
+          "Fire",
+          "Dark"
+        ]
       }
     }
   },
@@ -120,7 +120,8 @@
     "lords": {
       "Lord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Belegar Ironhammer": {
         "dlc": true,
@@ -132,7 +133,8 @@
       },
       "Runelord": {
         "dlc": true,
-        "dlc_name": "The King and the Warlord"
+        "dlc_name": "The King and the Warlord",
+        "article": "a"
       },
       "Ungrim Ironfist": {
         "dlc": false,
@@ -149,11 +151,13 @@
     "lords": {
       "General of the Empire": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Huntsman General": {
         "dlc": true,
-        "dlc_name": "The Hunter and the Beast"
+        "dlc_name": "The Hunter and the Beast",
+        "article": "a"
       },
       "Boris Todbringer": {
         "dlc": false,
@@ -165,7 +169,8 @@
       },
       "Arch Lector": {
         "dlc": true,
-        "dlc_name": "The Grim and the Grave"
+        "dlc_name": "The Grim and the Grave",
+        "article": "an"
       },
       "Balthasar Gelt": {
         "dlc": false,
@@ -186,15 +191,18 @@
     "lords": {
       "Night Goblin Warboss": {
         "dlc": true,
-        "dlc_name": "The King and the Warlord"
+        "dlc_name": "The King and the Warlord",
+        "article": "a"
       },
       "Orc Warboss": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "an"
       },
       "Goblin Great Shaman": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Grimgor Ironhide": {
         "dlc": false,
@@ -223,51 +231,33 @@
     "lords": {
       "Princess": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Prince": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Alith Anar": {
         "dlc": false,
         "dlc_name": ""
       },
-      "Archmage (Shadows)": {
+      "Archmage": {
         "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
-      },
-      "Archmage (Beasts)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
-      },
-      "Archmage (Metal)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
-      },
-      "Archmage (High)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
-      },
-      "Archmage (Death)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
-      },
-      "Archmage (Life)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
-      },
-      "Archmage (Light)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
-      },
-      "Archmage (Fire)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
-      },
-      "Archmage (Heavens)": {
-        "dlc": true,
-        "dlc_name": "The Warden and the Paunch"
+        "dlc_name": "The Warden and the Paunch",
+        "article": "an",
+        "lore": [
+          "Shadow",
+          "Beasts",
+          "Death",
+          "Fire",
+          "Metal",
+          "High",
+          "Life",
+          "Light",
+          "Heavens"
+        ]
       },
       "Imrik": {
         "dlc": false,
@@ -296,7 +286,8 @@
     "lords": {
       "Red Crested Skink Chief": {
         "dlc": true,
-        "dlc_name": "The Prophet and the Warlock"
+        "dlc_name": "The Prophet and the Warlock",
+        "article": "a"
       },
       "Tiktaq'to": {
         "dlc": false,
@@ -304,11 +295,13 @@
       },
       "Saurus Oldblood": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Kroxigor Ancient": {
         "dlc": true,
-        "dlc_name": "The Hunter and the Beast"
+        "dlc_name": "The Hunter and the Beast",
+        "article": "a"
       },
       "Gor-rok": {
         "dlc": false,
@@ -322,25 +315,16 @@
         "dlc": true,
         "dlc_name": "The Hunter and the Beast"
       },
-      "Slann Mage-Priest (High)": {
+      "Slann Mage-Priest": {
         "dlc": false,
-        "dlc_name": ""
-      },
-      "Slann Mage-Priest (Life)": {
-        "dlc": false,
-        "dlc_name": ""
-      },
-      "Slann Mage-Priest (Light)": {
-        "dlc": false,
-        "dlc_name": ""
-      },
-      "Slann Mage-Priest (Fire)": {
-        "dlc": false,
-        "dlc_name": ""
-      },
-      "Slann Mage-Priest (Heavens)": {
-        "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Fire",
+          "Life",
+          "Light",
+          "Heavens"
+        ]
       },
       "Tehenhauin": {
         "dlc": true,
@@ -358,7 +342,8 @@
     "lords": {
       "Marauder Chieftain": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Wulfrik the Wanderer": {
         "dlc": true,
@@ -375,11 +360,13 @@
     "lords": {
       "Warlord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Master Assassin": {
         "dlc": true,
-        "dlc_name": "The Shadow and the Blade"
+        "dlc_name": "The Shadow and the Blade",
+        "article": "a"
       },
       "Tretch Craventail": {
         "dlc": false,
@@ -393,17 +380,19 @@
         "dlc": false,
         "dlc_name": ""
       },
-      "Grey Seer (Plague)": {
+      "Grey Seer": {
         "dlc": false,
-        "dlc_name": ""
-      },
-      "Grey Seer (Ruin)": {
-        "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Plague",
+          "Ruin"
+        ]
       },
       "Warlock Master": {
         "dlc": true,
-        "dlc_name": "The Prophet and the Warlock"
+        "dlc_name": "The Prophet and the Warlock",
+        "article": "a"
       },
       "Lord Skrolk": {
         "dlc": false,
@@ -425,7 +414,8 @@
     "lords": {
       "Tomb King": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "High Queen Khalida": {
         "dlc": true,
@@ -461,29 +451,25 @@
         "dlc": true,
         "dlc_name": ""
       },
-      "Vampire Fleet Admiral (Polearm - Vampires)": {
+      "Vampire Fleet Admiral (Polearm)": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Vampires",
+          "Death",
+          "Deep"
+        ]
       },
-      "Vampire Fleet Admiral (Polearm - Death)": {
-        "dlc": true,
-        "dlc_name": ""
-      },
-      "Vampire Fleet Admiral (Polearm - Deep)": {
-        "dlc": true,
-        "dlc_name": ""
-      },
-      "Vampire Fleet Admiral (Pistol - Vampires)": {
+      "Vampire Fleet Admiral (Pistol)": {
         "dlc": false,
-        "dlc_name": ""
-      },
-      "Vampire Fleet Admiral (Pistol - Death)": {
-        "dlc": true,
-        "dlc_name": ""
-      },
-      "Vampire Fleet Admiral (Pistol - Deep)": {
-        "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Vampires",
+          "Death",
+          "Deep"
+        ]
       },
       "Count Noctilus": {
         "dlc": true,
@@ -496,7 +482,8 @@
     "lords": {
       "Master Necromancer": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Helman Ghorst": {
         "dlc": true,
@@ -508,19 +495,23 @@
       },
       "Strigoi Ghoul King": {
         "dlc": true,
-        "dlc_name": "The Grim and the Grave"
+        "dlc_name": "The Grim and the Grave",
+        "article": "a"
       },
       "Vampire Lord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Necrarch Vampire Lord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Von Carstein Vampire Lord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Isabella von Carstein": {
         "dlc": false,
@@ -528,7 +519,8 @@
       },
       "Lahmian Vampire Lord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Vlad von Carstein": {
         "dlc": false,
@@ -540,11 +532,13 @@
       },
       "Blood Dragon Vampire Lord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Strigoi Vampire Lord": {
         "dlc": false,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Mannfred von Carstein": {
         "dlc": false,
@@ -558,27 +552,23 @@
     "lords": {
       "Chaos Lord": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Prince Sigvald the Magnificent": {
         "dlc": true,
         "dlc_name": ""
       },
-      "Chaos Sorcerer Lord (Death)": {
+      "Chaos Sorcerer Lord": {
         "dlc": true,
-        "dlc_name": ""
-      },
-      "Chaos Sorcerer Lord (Metal)": {
-        "dlc": true,
-        "dlc_name": ""
-      },
-      "Chaos Sorcerer Lord (Fire)": {
-        "dlc": true,
-        "dlc_name": ""
-      },
-      "Chaos Sorcerer Lord (Shadows)": {
-        "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a",
+        "lore": [
+          "Metal",
+          "Death",
+          "Fire",
+          "Shadows"
+        ]
       },
       "Archaon the Everchosen": {
         "dlc": true,
@@ -600,11 +590,13 @@
     "lords": {
       "Glade Lord (1)": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Glade Lord (2)": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "article": "a"
       },
       "Orion": {
         "dlc": true,
