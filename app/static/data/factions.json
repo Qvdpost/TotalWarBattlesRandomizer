@@ -46,20 +46,15 @@
         "dlc_name": "",
         "article": "a"
       },
-      "Prophetess (Beasts)": {
+      "Prophetess": {
         "dlc": false,
         "dlc_name": "",
-        "article": "a"
-      },
-      "Prophetess (Life)": {
-        "dlc": false,
-        "dlc_name": "",
-        "article": "a"
-      },
-      "Prophetess (Heavens)": {
-        "dlc": false,
-        "dlc_name": "",
-        "article": "a"
+        "article": "a",
+        "lore": [
+          "Beasts",
+          "Life",
+          "Heavens"
+        ]
       }
     }
   },
