@@ -10,12 +10,9 @@ def get_faction(prefs, data):
     while count < 50:
         count += 1
         faction = random.choice(factions)
-            
-        if not data.get(faction).get('dlc'):
-            return faction
 
-        if not any(dlc_name not in prefs['dlcs'] for dlc_name in data.get(faction).get('dlc_name')):
-            return faction
+        if data.get(faction).get('dlc') and all(dlc_name not in prefs['dlcs'] for dlc_name in data.get(faction).get('dlc_name').split('&')):
+            faction = None
 
     return None
 
