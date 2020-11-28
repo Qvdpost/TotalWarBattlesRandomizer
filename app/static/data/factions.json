@@ -412,6 +412,10 @@
       "Ikit Claw": {
         "dlc": true,
         "dlc_name": "The Prophet and the Warlock"
+      },
+      "Throt the Unclean": {
+        "dlc": true,
+        "dlc_name": "The Twisted and the Twilight"
       }
     }
   },
@@ -611,6 +615,18 @@
         "dlc_name": ""
       },
       "Ancient Treeman": {
+        "dlc": true,
+        "dlc_name": ""
+      },
+      "Spellweaver": {
+        "dlc": true,
+        "dlc_name": "The Twisted and the Twilight"
+      },
+      "Sisters of Twilight": {
+        "dlc": true,
+        "dlc_name": "The Twisted and the Twilight"
+      },
+      "Drycha": {
         "dlc": true,
         "dlc_name": ""
       }
