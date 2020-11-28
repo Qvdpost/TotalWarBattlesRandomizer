@@ -581,38 +581,39 @@
   },
   "Wood Elves": {
     "dlc": true,
-    "dlc_name": "Realm of the Wood Elves",
+    "dlc_name": "Realm of the Wood Elves&The Twisted and the Twilight",
     "lords": {
       "Glade Lord (1)": {
         "dlc": true,
-        "dlc_name": "",
+        "dlc_name": "Realm of the Wood Elves",
         "article": "a"
       },
       "Glade Lord (2)": {
         "dlc": true,
-        "dlc_name": "",
+        "dlc_name": "Realm of the Wood Elves",
         "article": "a"
       },
       "Orion": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "Realm of the Wood Elves"
       },
       "Durthu": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "Realm of the Wood Elves"
       },
       "Ancient Treeman": {
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "Realm of the Wood Elves"
+      },
+      "Spellweaver": {
+        "dlc": true,
+        "dlc_name": "The Twisted and the Twilight",
+        "article": "a"
       },
       "Sisters of Twilight": {
         "dlc": true,
         "dlc_name": "The Twisted and the Twilight",
         "article": "the"
-      },
-      "Spellweaver": {
-        "dlc": true,
-        "dlc_name": "The Twisted and the Twilight"
       }
     }
   }
