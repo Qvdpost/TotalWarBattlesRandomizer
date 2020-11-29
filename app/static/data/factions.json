@@ -609,6 +609,10 @@
         "dlc": true,
         "dlc_name": "The Twisted and the Twilight",
         "article": "the"
+      },
+      "Spellweaver": {
+        "dlc": true,
+        "dlc_name": "The Twisted and the Twilight"
       }
     }
   }

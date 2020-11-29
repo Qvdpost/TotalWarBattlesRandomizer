@@ -14,7 +14,7 @@ def get_faction(prefs, data):
         if not data.get(faction).get('dlc'):
             return faction
 
-        if data.get(faction).get('dlc_name') in prefs['dlcs']:
+        if not any(dlc_name not in prefs['dlcs'] for dlc_name in data.get(faction).get('dlc_name')):
             return faction
 
     return None
