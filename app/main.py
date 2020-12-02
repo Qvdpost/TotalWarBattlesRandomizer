@@ -51,7 +51,7 @@ def randomize():
     for i in range(0, 2):
         faction = get_faction(session['player_prefs'][i], warhammer_faction_data)
         if not faction:
-            flask.flash(f"Player has no playable race with current preferences.")
+            flask.flash(f"Player {i + 1} has no playable race with current preferences.")
             continue
 
         player_suggestion_lord = get_lord(faction, session['player_prefs'][i], warhammer_faction_data)
