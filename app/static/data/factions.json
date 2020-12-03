@@ -653,7 +653,8 @@
       "Prince Sigvald the Magnificent": {
         "legendary": true,
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "articl": "the salacious, scandalous and sensational servant of Slaanesh! Son of Succubi, scion of sordid acts and slayer of squalid serfs,"
       },
       "Chaos Sorcerer Lord": {
         "legendary": false,
