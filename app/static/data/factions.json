@@ -4,19 +4,23 @@
     "dlc_name": "Call of the Beastmen",
     "lords": {
       "Beastlord": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "",
         "article": "a"
       },
       "Khazrak the One-Eye": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Malagor the Dark Omen": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Morghur the Shadowgave": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       }
@@ -26,27 +30,33 @@
     "dlc": false,
     "lords": {
       "King Louen Leoncoeur": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Alberic de Bordeleaux": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "The Fay Enchantress": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Repanse de Lyonesse": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Lord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Prophetess": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a",
@@ -62,41 +72,50 @@
     "dlc": false,
     "lords": {
       "Malekith": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Crone Hellebron": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Queen and the Crone"
       },
       "Morathi": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Malus Darkblade": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Shadow and the Blade"
       },
       "Lokhir Fellheart": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "High Beastmaster": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Shadow and the Blade",
         "article": "a"
       },
       "Dreadlord (Sword & Crossbow)": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Dreadlord (Sword & Shield)": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Supreme Sorceress": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Queen and the Crone",
         "article": "a",
@@ -114,28 +133,34 @@
     "dlc": false,
     "lords": {
       "Lord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Belegar Ironhammer": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The King and the Warlord"
       },
       "Grombrindal - The White Dwarf": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Runelord": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The King and the Warlord",
         "article": "a"
       },
       "Ungrim Ironfist": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Thogrim Grudgebearer": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       }
@@ -145,37 +170,45 @@
     "dlc": false,
     "lords": {
       "General of the Empire": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Huntsman General": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Hunter and the Beast",
         "article": "a"
       },
       "Boris Todbringer": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": ""
       },
       "Karl Franz": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Arch Lector": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Grim and the Grave",
         "article": "an"
       },
       "Balthasar Gelt": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Markus Wulfhart": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Hunter and the Beast"
       },
       "Volkmar the Grim": {
+        "legendary": true,f
         "dlc": true,
         "dlc_name": "The Grim and the Grave"
       }
@@ -185,37 +218,45 @@
     "dlc": false,
     "lords": {
       "Night Goblin Warboss": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The King and the Warlord",
         "article": "a"
       },
       "Orc Warboss": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "an"
       },
       "Goblin Great Shaman": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Grimgor Ironhide": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Skarsnik": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The King and the Warlord"
       },
       "Grom the Paunch": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Warden and the Paunch"
       },
       "Azhag the Slaughterer": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Wurrzag": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       }
@@ -225,20 +266,24 @@
     "dlc": false,
     "lords": {
       "Princess": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Prince": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Alith Anar": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Archmage": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Warden and the Paunch",
         "article": "an",
@@ -255,22 +300,27 @@
         ]
       },
       "Imrik": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Tyrion": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Alarielle the Radiant": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Queen and the Crone"
       },
       "Teclis": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Eltharion the Grim": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Warden and the Paunch"
       }
@@ -280,37 +330,45 @@
     "dlc": false,
     "lords": {
       "Red Crested Skink Chief": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Prophet and the Warlock",
         "article": "a"
       },
       "Tiktaq'to": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Saurus Oldblood": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Kroxigor Ancient": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Hunter and the Beast",
         "article": "a"
       },
       "Gor-rok": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Kroq-Gar": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Nakai the Wanderer": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Hunter and the Beast"
       },
       "Slann Mage-Priest": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a",
@@ -322,10 +380,12 @@
         ]
       },
       "Tehenhauin": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Prophet and the Warlock"
       },
       "Lord Mazdamundi": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       }
@@ -336,15 +396,18 @@
     "dlc_name": "Norsca (DLC)",
     "lords": {
       "Marauder Chieftain": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "",
         "article": "a"
       },
       "Wulfrik the Wanderer": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Throgg": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       }
@@ -354,28 +417,34 @@
     "dlc": false,
     "lords": {
       "Warlord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Master Assassin": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Shadow and the Blade",
         "article": "a"
       },
       "Tretch Craventail": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Deathmaster Snikch": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Shadow and the Blade"
       },
       "Queek Headtaker": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Grey Seer": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a",
@@ -385,19 +454,23 @@
         ]
       },
       "Warlock Master": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Prophet and the Warlock",
         "article": "a"
       },
       "Lord Skrolk": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Ikit Claw": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Prophet and the Warlock"
       },
       "Throt the Unclean": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Twisted and the Twilight"
       }
@@ -408,25 +481,31 @@
     "dlc_name": "Rise of the Tomb Kings",
     "lords": {
       "Tomb King": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "",
         "article": "a"
       },
       "High Queen Khalida": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Grand Hierophant Khatep": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Arkhan the Black": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Settra the Imperishable": {
+        "legendary": true,
         "dlc": true,
-        "dlc_name": ""
+        "dlc_name": "",
+        "artigle": "the Great King, Khemrikhara, The Great King of Nehekhara, King of Kings, Opener of the Way, Wielder of the Divine Flame, Punisher of Nomads, The Great Unifier, Commander of the Golden Legion, Sacred of Appearance, Bringer of Light, Father of Hawks, Builder of Cities, Protector of the Two Worlds, Keeper of the Hours, Chosen of Ptra, High Steward of the Horizon, Sailor of the Great Vitae, Sentinel of the Two Realms, The Undisputed, Begetter of the Begat, Scourge of the Faithless, Carrion-feeder, First of the Charnel Valley, Rider of the Sacred Chariot, Vanquisher of Vermin, Champion of the Death Arena, Mighty Lion of the Infinite Desert, Emperor of the Shifting Sands, He Who Holds The Sceptre, Great Hawk Of The Heavens, Arch-Sultan of Atalan, Waker of the Hierotitan, Monarch of the Sky, Majestic Emperor of the Shifting Sands, Champion of the Desert Gods, Breaker of the Ogre Clans, Builder of the Great Pyramid, Terror of the Living, Master of the Never-Ending Horizon, Master of the Necropolises, Taker of Souls, Tyrant to the Foolish, Bearer of Ptra's Holy Blade, Scion of Usirian, Scion of Nehek, The Great, Chaser of Nightmares, Keeper of the Royal Herat, Founder of the Mortuary Cult, Banisher of the Grand Hierophant, High Lord Admiral of the Deathfleets, Guardian of the Charnal Pass, Tamer of the Liche King, Unliving Jackal Lord, Dismisser of the Warrior Queen, Charioteer of the Gods, He Who Does Not Serve, Slayer off Reddittras, Scarab Purger, Favoured of Usirian, Player of the Great Game, Liberator of Life, Lord Sand, Wrangler of Scorpions, Emperor of the Dunes, Eternal Sovereign of Khemri's Legions, Seneschal of the Great Sandy Desert, Curserer of the Living, Regent of the Eastern Mountains, Warden of the Eternal Necropolis, Herald of all Heralds, Caller of the Bitter Wind, God-Tamer, Master of the Mortis River, Guardian of the Dead, Great Keeper of the Obelisks, Deacon of the Ash River, Belated of Wakers, General of the Mighty Frame, Summoner of Sandstorms, Master of all Necrotects, Prince of Dust, Tyrant of Araby, Purger of the Greenskin Breathers, Killer of the False God's Champions, Tyrant of the Gold Dunes, Golden Bone Lord, Avenger of the Dead, Carrion Master, Eternal Warden of Nehek's Lands, Breaker of Djaf's Bonds,"
       }
     }
   },
@@ -435,18 +514,22 @@
     "dlc_name": "Curse of the Vampire Coast",
     "lords": {
       "Aranessa Saltspite": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Luthor Harkon": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Cylostra Direfin": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Vampire Fleet Admiral (Polearm)": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "",
         "article": "a",
@@ -457,6 +540,7 @@
         ]
       },
       "Vampire Fleet Admiral (Pistol)": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a",
@@ -467,6 +551,7 @@
         ]
       },
       "Count Noctilus": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       }
@@ -476,66 +561,80 @@
     "dlc": false,
     "lords": {
       "Master Necromancer": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Helman Ghorst": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Grim and the Grave"
       },
       "Heinrich Kemmler": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Strigoi Ghoul King": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Grim and the Grave",
         "article": "a"
       },
       "Vampire Lord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Necrarch Vampire Lord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Von Carstein Vampire Lord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Isabella von Carstein": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "Lahmian Vampire Lord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Vlad von Carstein": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       },
       "The Red Duke": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": ""
       },
       "Blood Dragon Vampire Lord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Strigoi Vampire Lord": {
+        "legendary": false,
         "dlc": false,
         "dlc_name": "",
         "article": "a"
       },
       "Mannfred von Carstein": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       }
@@ -546,15 +645,18 @@
     "dlc_name": "Chaos Warriors Race Pack",
     "lords": {
       "Chaos Lord": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "",
         "article": "a"
       },
       "Prince Sigvald the Magnificent": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Chaos Sorcerer Lord": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "",
         "article": "a",
@@ -566,14 +668,17 @@
         ]
       },
       "Archaon the Everchosen": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Kholek Suneater": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": ""
       },
       "Sarthorael, the Everwatcher": {
+        "legendary": true,
         "dlc": false,
         "dlc_name": ""
       }
@@ -584,38 +689,53 @@
     "dlc_name": "Realm of the Wood Elves&The Twisted and the Twilight",
     "lords": {
       "Glade Lord (1)": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "Realm of the Wood Elves",
         "article": "a"
       },
       "Glade Lord (2)": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "Realm of the Wood Elves",
         "article": "a"
       },
       "Orion": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "Realm of the Wood Elves"
       },
       "Durthu": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "Realm of the Wood Elves"
       },
       "Ancient Treeman": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "Realm of the Wood Elves"
       },
       "Spellweaver": {
+        "legendary": false,
         "dlc": true,
         "dlc_name": "The Twisted and the Twilight",
-        "article": "a"
+        "article": "a",
+        "lore": [
+          "Shadow",
+          "Beasts",
+          "High",
+          "Life",
+          "Dark"
+        ]
       },
       "Sisters of Twilight": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "The Twisted and the Twilight",
         "article": "the"
       },
       "Drycha": {
+        "legendary": true,
         "dlc": true,
         "dlc_name": "Realm of the Wood Elves"
       }
