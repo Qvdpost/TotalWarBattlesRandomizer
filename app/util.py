@@ -38,7 +38,7 @@ def get_lord(faction, prefs, data):
             dlc_name = lord_info.get('dlc_name') if lord_info.get('dlc_name') != "" else data.get(faction).get(
                 'dlc_name')
             
-            if dlc_name in prefs['dlcs']:
+            if any(name in prefs['dlcs'] for name in dlc_name.split('&')):
                 return lord
         else:
             return lord

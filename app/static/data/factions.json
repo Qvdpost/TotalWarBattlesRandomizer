@@ -692,13 +692,13 @@
       "Glade Lord (1)": {
         "legendary": false,
         "dlc": true,
-        "dlc_name": "Realm of the Wood Elves",
+        "dlc_name": "Realm of the Wood Elves&The Twisted and the Twilight",
         "article": "a"
       },
       "Glade Lord (2)": {
         "legendary": false,
         "dlc": true,
-        "dlc_name": "Realm of the Wood Elves",
+        "dlc_name": "Realm of the Wood Elves&The Twisted and the Twilight",
         "article": "a"
       },
       "Orion": {
@@ -714,7 +714,7 @@
       "Ancient Treeman": {
         "legendary": false,
         "dlc": true,
-        "dlc_name": "Realm of the Wood Elves"
+        "dlc_name": "Realm of the Wood Elves&The Twisted and the Twilight"
       },
       "Spellweaver": {
         "legendary": false,
